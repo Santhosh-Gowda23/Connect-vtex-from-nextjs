@@ -32,3 +32,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## How To Access VTex OOTB GraphQL APP.
+
+1.Uncomment Line 11 on /apollo-client.js.
+2.On the client side(browser) the default route will be "/", we should be able to see the Categories listing it on the home page.
+
+## How to Access Vtex OOTB Rest APIs.
+
+Uncomment line 43 in pages/index.js and comment the rest of the code
+
+## How To Access Custom service's GraphQL APP.
+
+On the client side navigate to /custom route and uncomment the line 10 on /apollo-client.js
